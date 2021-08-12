@@ -1,0 +1,20 @@
+package com.syl.hibernate.view;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+public class TestMain {
+	public static void main(String args[]) {
+		
+		Session  session = null;
+		Transaction tx = null;
+		
+		try {
+			session = hibernateUtil.getCurrentSession();
+		}catch(Exception e) {
+			
+		}finally {
+			
+		}
+	}
+}

@@ -1,0 +1,56 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context = "http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+">
+<!--  配置对象  -->
+    <bean id = "test1Service" class="com.aop.Test1Service">
+        <property name="name" value="Johnson" />
+    </bean>
+
+<!--  配置前置通知  -->
+    <bean id ="myMethodBeforeAdvice" class="com.aop.MyMethodBeforeAdvice"/>
+    <!--  配置后置通知  -->
+    <bean id ="myAfterReturningAdvice" class="com.aop.MyAfterReturningAdvice"/>
+    <!--  配置事件通知  -->
+    <bean id ="myMethodInterceptor" class="com.aop.MyMethodInterceptor"/>
+    <!--  配置引入通知(限定通知)  -->
+    <bean id = "myBeforeAdvice" class = "org.springframework.aop.support.NameMatchMethodPointcutAdvisor">
+        <property name="advice" ref="myMethodBeforeAdvice"/>
+        <property name="mappedNames">
+            <list>
+                <value>sayHello</value>
+            </list>
+        </property>
+    </bean>
+
+<!--   配置代理对象 -->
+    <bean id = "proxyFactoryBean" class="org.springframework.aop.framework.ProxyFactoryBean">
+
+    <!--    代理接口集    -->
+        <property name="proxyInterfaces">
+            <list>
+                <value>com.aop.TestServiceInt</value>
+                <value>com.aop.TestServiceInter2</value>
+            </list>
+        </property>
+    <!--    把通知置入到代理对象中   -->
+        <property name="interceptorNames">
+    <!--    相当于把 myMethodBeforeAdvice和代理对象关联起来
+           可以把通知看作拦截器  -->
+            <list>
+                <value>myBeforeAdvice</value>
+<!--                <value>myAfterReturningAdvice</value>-->
+<!--                <value>myMethodInterceptor</value>-->
+            </list>
+        </property>
+    <!--    配置需要被代理的对象        -->
+        <property name="target">
+            <ref bean="test1Service" />
+        </property>
+    </bean>
+
+
+
+</beans>

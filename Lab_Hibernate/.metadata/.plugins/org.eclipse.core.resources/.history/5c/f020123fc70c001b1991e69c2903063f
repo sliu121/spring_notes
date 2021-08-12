@@ -1,0 +1,5 @@
+package com.syl.hibernate.util;
+
+public class MySessionFactory {
+
+}

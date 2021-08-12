@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+    <beans>
+
+    <bean id = "department" class = "com.syl.collections.Department">
+        <property name="name">
+            <value>IT</value>
+        </property>
+        <property name="empName">
+<!--    Array 注值        -->
+            <list>
+                <value>Steve</value>
+                <value>Ellen</value>
+                <value>Ming</value>
+            </list>
+        </property>
+        <!--    List 注值, List中的顺序时由下面的顺序决定的       -->
+        <property name="employeesList">
+            <list>
+                <ref bean="emp1"/>
+                <ref bean="emp2"/>
+                <ref bean="emp1"/>
+                <ref bean="emp1"/>
+            </list>
+        </property>
+        <!--    Set 注值, 此处必须使用<set>,且输入顺序和输出顺序不一定相同        -->
+        <property name="empSet">
+            <set>
+                <ref bean="emp2"/>
+                <ref bean="emp1"/>
+                <ref bean="emp1"/>
+                <ref bean="emp1"/>
+            </set>
+        </property>
+        <!--    Map 注值,         -->
+        <property name="empMap">
+            <map>
+                <entry key = "1">
+                    <ref bean="emp1"/>
+                </entry>
+                <entry key = "2">
+                    <ref bean="emp2"/>
+                </entry>
+            </map>
+        </property>
+    </bean>
+ 
+    <bean id = "emp1" class="com.syl.collections.Employees">
+        <property name="name">
+            <value>aaa</value>
+        </property>
+        <property name="id">
+            <value>0001</value>
+        </property>
+    </bean>
+
+    <bean id = "emp2" class="com.syl.collections.Employees">
+        <property name="name">
+            <value>bbb</value>
+        </property>
+        <property name="id">
+            <value>0002</value>
+        </property>
+    </bean>
+
+    <bean id = "father" class = "com.syl.collections.Father">
+        <property name = "message1">
+            <value>
+                Hello World from Father!
+            </value>
+        </property>
+        <property name = "message2">
+            <value>
+                Hello Second World From Father!
+            </value>
+        </property>
+    </bean>
+
+    <bean id ="son" class = "com.syl.collections.Son" parent = "father">
+        <property name = "message1"><value>Hello World form Son</value></property>
+        <property name = "message3"><value>Hello Third World form Son</value></property>
+
+    </bean>
+
+</beans>

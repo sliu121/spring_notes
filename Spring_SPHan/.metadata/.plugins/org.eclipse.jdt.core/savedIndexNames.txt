@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+G:\master_courses\Learning_JavaEE\outside_Libs\Spring_SPHan\.metadata\.plugins\org.eclipse.jdt.core
+873808661.index
+466950573.index
+1133363782.index
+710904567.index
+1644829213.index
+19591460.index
+2075324680.index

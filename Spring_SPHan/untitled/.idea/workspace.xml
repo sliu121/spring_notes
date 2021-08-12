@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6cf531e8-ba66-4bbc-a1d9-fc00894494b8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1wb0s7a5e8tiaJCi6zOwSNjEb99" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="use_interface_lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="use_interface_lambda" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.use_interface_lambda" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cf531e8-ba66-4bbc-a1d9-fc00894494b8" name="Default Changelist" comment="" />
+      <created>1628712184741</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628712184741</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="88" key="#Project_Structure" timestamp="1628712195373">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="88" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1628712195373" />
+    <state width="1479" height="196" key="GridCell.Tab.0.bottom" timestamp="1628737308495">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1479" height="196" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1628737308495" />
+    <state width="1479" height="196" key="GridCell.Tab.0.center" timestamp="1628737308495">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1479" height="196" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1628737308495" />
+    <state width="1479" height="196" key="GridCell.Tab.0.left" timestamp="1628737308495">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1479" height="196" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1628737308495" />
+    <state width="1479" height="196" key="GridCell.Tab.0.right" timestamp="1628737308495">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1479" height="196" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1628737308495" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/use_interface_lambda.java</url>
+          <line>5</line>
+          <properties class="use_interface_lambda" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

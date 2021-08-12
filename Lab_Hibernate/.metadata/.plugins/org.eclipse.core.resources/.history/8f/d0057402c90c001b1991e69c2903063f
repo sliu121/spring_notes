@@ -1,0 +1,30 @@
+package com.syl.hibernate.view;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.syl.hibernate.util.HibernateUtil;
+
+public class TestMain {
+	public static void main(String args[]) {
+		
+		Session  session = null;
+		Transaction tx = null;
+		
+		try {
+			session = HibernateUtil.getCurrentSession();
+			tx = session.beginTransaction();
+			tx.commit();
+		}catch(Exception e) {
+			e.printStackTrace();
+			if(tx!= null) {
+				tx.rollback();
+			}
+			throw new RuntimeException(e.getMessage());
+		}finally {
+			if(session!=null && session.isOpen()) {
+				session.close();
+			}
+		}
+	}
+}

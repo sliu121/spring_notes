@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="990604f6-b49a-47f6-b2d6-d3354c2a9095" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1j53sZ6kGscdHyqbZurAhgxDN45" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/aop" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="net.intellij.plugins.sexyeditor.SexyEditorConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\master_courses\Learning_JavaEE\outside_Libs\mySpring\src\com\aop" />
+      <recent name="G:\master_courses\Learning_JavaEE\outside_Libs\mySpring\src\com\syl\property" />
+      <recent name="G:\master_courses\Learning_JavaEE\outside_Libs\mySpring\lib" />
+      <recent name="G:\master_courses\Learning_JavaEE\outside_Libs\mySpring\src\com\syl\autowire" />
+      <recent name="G:\master_courses\Learning_JavaEE\outside_Libs\mySpring\src\com\syl\constructor" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App1 (2)">
+    <configuration name="App1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syl.property.App1" />
+      <module name="mySpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.syl.property.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aop.App1" />
+      <module name="mySpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App1 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syl.autowire.App1" />
+      <module name="mySpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.syl.autowire.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syl.collections.App1" />
+      <module name="mySpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.syl.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syl.beanlife.App2" />
+      <module name="mySpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.syl.beanlife.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App1 (2)" />
+        <item itemvalue="Application.App1" />
+        <item itemvalue="Application.App1 (1)" />
+        <item itemvalue="Application.App1 (3)" />
+        <item itemvalue="Application.App2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="990604f6-b49a-47f6-b2d6-d3354c2a9095" name="Default Changelist" comment="" />
+      <created>1603080332742</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603080332742</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="193" key="#com.intellij.ide.util.MemberChooser" timestamp="1603328064379">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="193" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603328064379" />
+    <state x="212" y="254" key="FileChooserDialogImpl" timestamp="1603320609348">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="212" y="254" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603320609348" />
+    <state width="1863" height="255" key="GridCell.Tab.0.bottom" timestamp="1603339036607">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1863" height="255" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603339036607" />
+    <state width="1863" height="255" key="GridCell.Tab.0.center" timestamp="1603339036606">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1863" height="255" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603339036606" />
+    <state width="1863" height="255" key="GridCell.Tab.0.left" timestamp="1603339036606">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1863" height="255" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603339036606" />
+    <state width="1863" height="255" key="GridCell.Tab.0.right" timestamp="1603339036606">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1863" height="255" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603339036606" />
+    <state x="298" y="123" key="SettingsEditor" timestamp="1603324600731">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="298" y="123" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603324600731" />
+    <state x="607" y="367" width="591" height="480" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1603317722637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="607" y="367" width="591" height="480" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603317722637" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1603317511579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603317511579" />
+  </component>
+</project>

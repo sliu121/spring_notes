@@ -1,0 +1,52 @@
+package com.syl.hibernate.view;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.syl.hibernate.reen.EmployeesInfo;
+import com.syl.hibernate.util.HibernateUtil;
+
+public class TestMain {
+	public static void main(String args[]) {
+		
+		SessionFactory sf = new Configuration().configure().buildSessionFactory();
+		Session  session = null;
+		Transaction tx = null;
+		
+		try {
+			session = sf.getCurrentSession();
+			tx = session.beginTransaction();
+			// 1. select all employees
+			List<EmployeesInfo> list = session.createQuery("from Employee").list();
+			// 2. get the result 
+			//    a. for loop
+			for(EmployeesInfo e : list) {
+				System.out.println(e.getEmployeeId() + " : " + e.getFirstName() + " " + e.getLastName());
+			}
+			//    b. iterator
+			
+			
+			tx.commit();
+		}catch(Exception e) {
+			e.printStackTrace();
+			if(tx!= null) {
+				tx.rollback();
+			}
+			throw new RuntimeException(e.getMessage());
+		}finally {
+			if(session!=null && session.isOpen()) {
+				session.close();
+			}
+		}
+	}
+}
+//错误: 加载主类 com.syl.hibernate.view.TestMain 时出现 LinkageError
+//java.lang.UnsupportedClassVersionError: com/syl/hibernate/view/TestMain 
+//has been compiled by a more recent version of the Java Runtime (class file version 58.0), 
+//this version of the Java Runtime only recognizes class file versions up to 56.0
+
+

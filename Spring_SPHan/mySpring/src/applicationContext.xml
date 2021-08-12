@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+        "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+<!--  在容器文件中配置bean(service/doa/domain/action/数据源)  -->
+<!--  bean元素的作用是： 当我们的spring框架加载的时候，spring就会自动创建一个bean对象，并放入内存  -->
+    <bean id = "userService" class = "com.service.UserService">
+<!--   此处相当于调用了 一个叫name的变量，并赋值给他，因此我们必须有set方法，否则不能调用     -->
+        <property name = "name">
+            <value> Siyu Liu</value>
+        </property>
+<!--    在userService里引用byeService bean    -->
+        <property name="byeService">
+            <ref bean="byeService"/>
+        </property>
+    </bean>
+
+    <bean id = "byeService" class = "com.service.ByeService">
+        <property name="name" >
+            <value>Poli Liu</value>
+        </property>
+    </bean>
+
+</beans>

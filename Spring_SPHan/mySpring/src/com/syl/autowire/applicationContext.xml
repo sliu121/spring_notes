@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+        "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+
+    <!--配置一个master-->
+    <bean id = "master" class="com.syl.autowire.Master" autowire="byName">
+        <property name="name">
+            <value>Todd</value>
+        </property>
+        <!--   1. 传统方式     -->
+        <!--        <property name="dog">-->
+        <!--            <ref bean="dog"/>-->
+        <!--        </property>-->
+    </bean>
+    <bean id = "master2" class="com.syl.autowire.Master" autowire="constructor">
+        <property name="name">
+            <value>Alex</value>
+        </property>
+    </bean>
+    <!--  配置一个dog  -->
+    <bean id="dog" class="com.syl.autowire.Dog">
+        <property name="name">
+            <value>Heyhey</value>
+        </property>
+        <property name="age">
+            <value>3</value>
+        </property>
+    </bean>
+    <!--    <bean id="dog2" class="com.syl.autowire.Dog">-->
+    <!--        <property name="name">-->
+    <!--            <value>Luoluo</value>-->
+    <!--        </property>-->
+    <!--        <property name="age">-->
+    <!--            <value>1</value>-->
+    <!--        </property>-->
+    <!--    </bean>-->
+
+</beans>

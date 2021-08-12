@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+        "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+    <bean id = "upperLetter" class = "com.syl.inter.UpperLetter">
+        <property name="string">
+            <value>abcdef</value>
+        </property>
+    </bean>
+
+    <bean id = "lowerLetter" class = "com.syl.inter.LowerLetter">
+        <property name="string">
+            <value>ABCDEF</value>
+        </property>
+    </bean>
+    <bean id = "userCheck" class="com.syl.inter.DbCheck">
+        <property name = "string">
+            <value>DB checking...</value>
+        </property>
+    </bean>
+
+</beans>
